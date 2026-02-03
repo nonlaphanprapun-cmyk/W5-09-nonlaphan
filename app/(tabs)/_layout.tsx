@@ -13,6 +13,16 @@ export default function Layout(){
                     )
                 }}
             />
+
+            <Tabs.Screen
+                name="add"
+                options={{
+                    title:"ใส่ข้อมูล",
+                    tabBarIcon: () => (
+                        <Ionicons name="key" size={20} color="yellow" />
+                    )
+                }}
+            />
         </Tabs>
     )
 }
